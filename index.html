@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Balda - Personal Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Creepster&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #8a2be2, #4b0082);
+            border-radius: 0 0 50% 50% / 20px;
+        }
+        h1 {
+            font-family: 'Creepster', cursive;
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            color: #ff69b4;
+            text-shadow: 2px 2px 4px #000;
+        }
+        h2 {
+            font-family: 'Creepster', cursive;
+            color: #ff69b4;
+            border-bottom: 2px dashed #8a2be2;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 40px;
+            background-color: rgba(138, 43, 226, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+        }
+        .job-title {
+            font-weight: bold;
+            color: #ff69b4;
+        }
+        .job-date {
+            font-style: italic;
+            color: #b19cd9;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: '🦇 ';
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .skill {
+            background-color: #4b0082;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .skill:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+        }
+        .fun-fact {
+            background-color: #ff69b4;
+            color: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="float-animation">Sarah Balda</h1>
+        <div class="contact-info">
+            <p>✉️ sbalda.3155@gmail.com | 🔗 <a href="#" style="color: #ff69b4;">LinkedIn</a></p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>🚀 My Adventures in Tech</h2>
+            <div>
+                <h3><span class="job-title">Tech Wizard</span> @ The Graph Foundation</h3>
+                <p class="job-date">October 2023 - May 2024</p>
+                <ul>
+                    <li>Conjured up the Chain Integration Process (CIP) spell</li>
+                    <li>Brewed community potions and cast outreach enchantments</li>
+                    <li>Wielded the Graph Improvement Proposal (GIP) wand</li>
+                    <li>Guarded the protocol realm with governance shields</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3><span class="job-title">Development Sorceress</span> @ Security Alliance</h3>
+                <p class="job-date">March 2023 - November 2023</p>
+                <ul>
+                    <li>Summoned organizational policies from the ether</li>
+                    <li>Enchanted donors and expanded the crypto coven</li>
+                    <li>Forged alliances with powerful crypto entities</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3><span class="job-title">Product Alchemist</span> @ Finterest</h3>
+                <p class="job-date">May 2022 - January 2023</p>
+                <ul>
+                    <li>Mixed and brewed magical product features</li>
+                    <li>Scried the future with mystical roadmaps</li>
+                    <li>Channeled the voices of users at arcane conferences</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3><span class="job-title">NFT Necromancer</span> @ SSRWives</h3>
+                <p class="job-date">July 2022 - Present</p>
+                <ul>
+                    <li>Birthed digital creatures through NFT sorcery</li>
+                    <li>Divined the future with crystal ball roadmaps</li>
+                    <li>Summoned spirits to NFTNYC rituals</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🧙‍♀️ Magical Skills</h2>
+            <div class="skills">
+                <span class="skill">Notion Necromancy</span>
+                <span class="skill">Figma Foresight</span>
+                <span class="skill">Franklin Finance</span>
+                <span class="skill">QuickBooks Quests</span>
+                <span class="skill">ProCreate Prophecies</span>
+                <span class="skill">Unity Unleashing</span>
+                <span class="skill">Ethereum Enchantments</span>
+                <span class="skill">Discord Divination</span>
+                <span class="skill">GitHub Grimoire</span>
+                <span class="skill">Social Media Sorcery</span>
+                <span class="skill">SAFE Spellcasting</span>
+                <span class="skill">NFT Necromancy</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📚 Arcane Studies</h2>
+            <div>
+                <p><strong>Bachelor of Science in Accounting with a Minor in Economics</strong><br>
+                University of Central Florida, School of Mystical Mathematics [2022-2023]</p>
+                <p><strong>Associate of Science in Accounting</strong><br>
+                Daytona State College, Academy of Arcane Arithmetic [2019-2021]</p>
+            </div>
+            <div class="fun-fact">
+                Fun Fact: I once balanced the books for a vampire's 300-year-old estate. Talk about immortal assets!
+            </div>
+        </div>
+    </div>
+</body>
+</html>
